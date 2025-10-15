@@ -306,4 +306,156 @@ Usa el correo electrónico y la contraseña que registraste en la plataforma de 
 3.  Toca **Agregar puntos** y confirma.
 
 #### 5.4.4. Aplicación Scanner – Certificado
-1.  Escanea la
+1.  Escanea la tarjeta para ver el saldo disponible.
+2.  Ingresa el número de puntos que el cliente desea canjear.
+3.  Toca **Canjear puntos** y confirma.
+
+#### 5.4.5. Aplicación Scanner – Cupón
+1.  Escanea la tarjeta del cupón.
+2.  Toca el botón **Canjear cupón** y confirma la acción.
+3.  El cupón se marcará como usado.
+
+#### 5.4.6. Aplicación Scanner – Membresía
+1.  Escanea la tarjeta de membresía.
+2.  La aplicación mostrará la tarjeta y su estado actual (ej. activa/inactiva).
+
+#### 5.4.7. Aplicación Scanner – Descuento
+1.  Escanea la tarjeta.
+2.  Ingresa el monto de la compra y haz clic en **Agregar puntos**.
+3.  El total de puntos acumulados se actualizará, y si el cliente alcanza un nuevo nivel, su porcentaje de descuento aumentará automáticamente.
+
+### 5.5. Perfiles de Administrador
+Puedes crear perfiles para tus empleados (administradores) para que puedan usar la aplicación Scanner sin tener acceso a toda tu cuenta.
+* Ve a la sección **Administradores** y haz clic en **Agregar administrador**.
+* Completa sus datos, asigna una contraseña y una ubicación.
+* El administrador podrá iniciar sesión en la aplicación Scanner con las credenciales que creaste.
+
+---
+
+## Sección 6: ADMINISTRADORES
+
+### 6.1. Añade/ Edita/ Elimina
+Cómo gestionar los perfiles de los administradores en la plataforma.
+
+1.  En el menú lateral, ve a **Administradores**.
+2.  **Añadir:** Haz clic en **Agregar administrador**, completa el formulario (nombre, correo, contraseña, ubicación) y guarda.
+3.  **Editar:** Haz clic en el ícono de lápiz junto a un administrador, modifica los datos y guarda.
+4.  **Eliminar:** Haz clic en el ícono de basura junto a un administrador y confirma la eliminación.
+
+### 6.2. Perfil del gerente
+El perfil del gerente tiene permisos para gestionar tarjetas y clientes. Puedes configurar lo que cada gerente puede ver y hacer.
+
+### 6.3. Estadísticas
+Revisa las estadísticas de las acciones realizadas por cada administrador, como cuántas tarjetas han emitido o cuántos puntos han canjeado.
+
+---
+
+## Sección 7: NOTIFICACIONES PUSH
+
+### 7.1. ¿Cómo funciona?
+
+#### 7.1.1. iPhone (iOS)
+Las notificaciones push aparecen en la pantalla de bloqueo, el centro de notificaciones y como banners. Se gestionan a través del servicio de notificaciones push de Apple (APNS).
+
+#### 7.1.2. Android
+Similar a iOS, las notificaciones aparecen en la barra de estado y en la pantalla de bloqueo. Utilizan Firebase Cloud Messaging (FCM).
+
+#### 7.1.3. ¿Cuánto tiempo tardan las notificaciones push en ser recibidas por el cliente?
+Generalmente, llegan en segundos. Sin embargo, puede haber retrasos por la conexión a internet del dispositivo o la carga del servidor.
+
+#### 7.1.4. ¿Por qué mis clientes no reciben mis notificaciones push?
+* El cliente deshabilitó las notificaciones para la aplicación.
+* El dispositivo no tiene conexión a internet.
+* El cliente eliminó la tarjeta de su Wallet.
+
+### 7.2. Sección de Notificaciones Push
+
+#### 7.2.1. Marketing push
+Envía mensajes promocionales a tus clientes.
+1.  Ve a la sección **Notificaciones Push**.
+2.  Selecciona **Marketing push**.
+3.  Elige la tarjeta a la que se enviará la notificación, redacta el título y el mensaje.
+4.  Puedes segmentar a los destinatarios con filtros y programar el envío.
+
+#### 7.2.2. Geo - push (Notificación geolocalizada)
+Envía notificaciones cuando un cliente entra o sale de un área geográfica específica.
+1.  Primero, define una ubicación en la sección **Geolocalizaciones**.
+2.  Luego, en **Notificaciones Push**, selecciona **Geo-push**.
+3.  Configura el mensaje, elige la ubicación y si se activará al entrar o salir del área.
+
+#### 7.2.3. Notificación Push automatizada
+Configura mensajes que se envían automáticamente después de una acción específica (ej. después de emitir una tarjeta).
+1.  Ve a **Notificaciones Push** y selecciona **Notificación Push automatizada**.
+2.  Elige el evento desencadenante, el retraso, y redacta el mensaje.
+
+#### 7.2.4. Push automático condicionado
+Envía notificaciones basadas en condiciones específicas, como el saldo de puntos de un cliente.
+1.  En **Notificaciones Push**, selecciona **Push automático condicionado**.
+2.  Define la condición (ej. saldo igual a 5 sellos) y el mensaje a enviar.
+
+---
+
+## Sección 8: PANEL DE CONTROL
+
+### 8.1. Panel de control
+El panel de control te ofrece una vista general de las métricas clave de tu programa de lealtad.
+* **Visión general:** Muestra el número total de clientes, tarjetas emitidas, transacciones y más.
+* **Gráficos:** Visualiza tendencias de crecimiento de clientes, actividad de tarjetas y rendimiento de las notificaciones push.
+* **Filtros:** Puedes filtrar los datos por período de tiempo para analizar el rendimiento en semanas, meses o años específicos.
+
+---
+
+## Sección 9: RECOPILACIÓN DE RETROALIMENTACIÓN
+
+### 9.1. Recopilación de retroalimentación
+Invita a tus clientes a dejar reseñas sobre tu negocio.
+1.  En la configuración de una tarjeta, ve a la sección **Información**.
+2.  Activa los **Enlaces de retroalimentación**.
+3.  Agrega las URLs de tus perfiles en plataformas como Google Maps, Yelp, o Facebook.
+4.  Cuando un cliente interactúe con su tarjeta, verá estos enlaces y podrá dejar una reseña fácilmente.
+
+---
+
+## Sección 10: PROGRAMA DE REFERIDOS
+
+### 10.1. Programa de referidos
+Incentiva a tus clientes actuales a que recomienden tu negocio a sus amigos.
+1.  Al crear o editar una tarjeta, ve a la sección **Información**.
+2.  Activa la opción **Programa de referidos**.
+3.  Configura la recompensa:
+    * **Cantidad de sellos para el referente:** Cuántos puntos gana el cliente actual por cada amigo que se registre.
+    * **Cantidad de sellos para el nuevo cliente:** Cuántos puntos de bienvenida recibe el amigo referido.
+4.  Cada cliente tendrá un enlace de referido único en su tarjeta digital para compartir.
+
+---
+
+## Sección 11: GEOLOCALIZACIONES
+
+### 11.1. Geolocalizaciones
+Define ubicaciones físicas para enviar notificaciones push geolocalizadas (Geo-push).
+1.  Ve a la sección **Geolocalizaciones** en el menú.
+2.  Haz clic en **Agregar geolocalización**.
+3.  Busca la dirección en el mapa, asígnale un nombre y define el radio (en metros) del área.
+4.  Guarda la ubicación. Ahora podrás usarla para crear campañas de Geo-push.
+
+---
+
+## Sección 12: AJUSTES
+
+### 12.1. Ajustes
+En la sección de **Ajustes**, puedes gestionar la configuración general de tu cuenta.
+* **Perfil de la empresa:** Actualiza el nombre, contacto y otros datos de tu negocio.
+* **Facturación:** Revisa tu plan actual, historial de pagos y actualiza tu método de pago.
+* **Configuración de la cuenta:** Cambia tu contraseña y gestiona las preferencias de notificación de la plataforma.
+* **Webhooks:** Configura webhooks para integrar Tarjetas Digitales con otras aplicaciones. Ingresa la URL de destino y selecciona los eventos que activarán el webhook (ej. nueva tarjeta emitida).
+
+---
+
+## Sección 13: SOPORTE
+
+### 13.1. Chat de Intercom
+Cómo obtener soporte en cualquier momento.
+1.  Después de iniciar sesión, haz clic en el ícono de chat en la esquina inferior derecha de la pantalla.
+2.  Se abrirá una ventana emergente. Haz clic en **Mensajes** o **Envíanos un mensaje**.
+3.  Escribe tu consulta en el campo de texto. Puedes adjuntar archivos, GIFs o emojis para dar más contexto a tu pregunta.
+4.  Nuestro equipo de soporte te responderá a la brevedad.
